@@ -1,5 +1,5 @@
 import os
-from flask import Flask, jsonify, request
+from flask import jsonify, Flask, request
 from math import sqrt
 
 app = Flask(__name__)
@@ -21,7 +21,7 @@ def numerosPrimos():
             primos = primos + ',' + str(numero)
             p += 1
         numero+=1
-
+    primos = primos + '.'
     return primos
 
 

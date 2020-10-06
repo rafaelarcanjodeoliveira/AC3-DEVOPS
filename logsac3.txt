@@ -1,0 +1,23 @@
+2020-10-06T00:44:10.895166+00:00 app[api]: Release v1 created by user rafael.arcanjo@aluno.faculdadeimpacta.com.br
+2020-10-06T00:44:10.895166+00:00 app[api]: Initial release by user rafael.arcanjo@aluno.faculdadeimpacta.com.br
+2020-10-06T00:44:11.002712+00:00 app[api]: Enable Logplex by user rafael.arcanjo@aluno.faculdadeimpacta.com.br
+2020-10-06T00:44:11.002712+00:00 app[api]: Release v2 created by user rafael.arcanjo@aluno.faculdadeimpacta.com.br
+2020-10-06T00:44:25.354976+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/" host=ac3devops1903205.herokuapp.com request_id=f7f7965e-1e02-447f-b312-142cff834b43 fwd="186.220.39.45" dyno= connect= service= status=502 bytes= protocol=https
+2020-10-06T00:44:25.587332+00:00 heroku[router]: at=info code=H81 desc="Blank app" method=GET path="/favicon.ico" host=ac3devops1903205.herokuapp.com request_id=6a5f4eb6-c8f1-4a26-8e14-86569ab36994 fwd="186.220.39.45" dyno= connect= service= status=502 bytes= protocol=https
+2020-10-06T00:44:34.000000+00:00 app[api]: Build started by user rafael.arcanjo@aluno.faculdadeimpacta.com.br
+2020-10-06T00:45:07.818288+00:00 app[api]: Deploy f3ce99f2 by user rafael.arcanjo@aluno.faculdadeimpacta.com.br
+2020-10-06T00:45:07.818288+00:00 app[api]: Release v3 created by user rafael.arcanjo@aluno.faculdadeimpacta.com.br
+2020-10-06T00:45:07.830663+00:00 app[api]: Scaled to web@1:Free by user rafael.arcanjo@aluno.faculdadeimpacta.com.br
+2020-10-06T00:45:11.112394+00:00 heroku[web.1]: Starting process with command `python primos.py`
+2020-10-06T00:45:13.427839+00:00 app[web.1]: * Serving Flask app "primos" (lazy loading)
+2020-10-06T00:45:13.427862+00:00 app[web.1]: * Environment: production
+2020-10-06T00:45:13.427937+00:00 app[web.1]: WARNING: Do not use the development server in a production environment.
+2020-10-06T00:45:13.427989+00:00 app[web.1]: Use a production WSGI server instead.
+2020-10-06T00:45:13.428048+00:00 app[web.1]: * Debug mode: off
+2020-10-06T00:45:13.439933+00:00 app[web.1]: * Running on http://0.0.0.0:45224/ (Press CTRL+C to quit)
+2020-10-06T00:45:13.947417+00:00 heroku[web.1]: State changed from starting to up
+2020-10-06T00:45:16.000000+00:00 app[api]: Build succeeded
+2020-10-06T00:45:20.150170+00:00 app[web.1]: 10.157.87.30 - - [06/Oct/2020 00:45:20] "GET / HTTP/1.1" 200 -
+2020-10-06T00:45:20.150521+00:00 heroku[router]: at=info method=GET path="/" host=ac3devops1903205.herokuapp.com request_id=f1a37e6e-2edd-4d8c-a7a7-f75daa49b578 fwd="186.220.39.45" dyno=web.1 connect=1ms service=30ms status=200 bytes=525 protocol=https
+2020-10-06T00:45:20.361078+00:00 app[web.1]: 10.157.87.30 - - [06/Oct/2020 00:45:20] "GET /favicon.ico HTTP/1.1" 404 -
+2020-10-06T00:45:20.361502+00:00 heroku[router]: at=info method=GET path="/favicon.ico" host=ac3devops1903205.herokuapp.com request_id=161a06cc-d8c6-4dcd-84f7-d4f785def92c fwd="186.220.39.45" dyno=web.1 connect=0ms service=28ms status=404 bytes=379 protocol=https
